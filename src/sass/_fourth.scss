@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Architects+Daughter&family=Gloria+Hallelujah&family=Indie+Flower&family=Orbitron:wght@500&display=swap');
+
+.fourth{
+    height: auto;
+    padding-top: 100px;
+    .fourthhed{
+    h3{
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;  
+        color: #CECFC9;
+        font-weight: 2000;
+        font-size: 45px;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;  
+        color: #CECFC9;
+    }
+    }
+    .cartsdiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        .cartsdiv1{
+            width: 450px;
+            height: 530px;
+            color: #CECFC9;;
+            background-image: url("../imgs/original.jpg") !important;
+            background-size:100% 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+            h5{
+                font-size: 55px;
+                font-family: 'Architects Daughter', cursive;
+                color: #CECFC9;
+                i{
+                    color: #415A77;
+                    font-size: 40px;
+
+                }
+            }
+            h6{
+                font-size: 25px;
+            }
+            p{
+                color: #CECFC9;
+                font-family: 'Architects Daughter', cursive;
+                font-size: 30px;
+                padding: 10px 100px;
+                text-align: center;
+            }
+            ul{
+                list-style: none;
+                li{
+                    i{
+                        margin-right: 10px;
+                    }
+                    font-size: 20px;
+                    margin-bottom: 10px;
+
+                }
+            }
+                        button{
+                width: 120px;
+                height: 50px;
+                background-color: #415A77;
+                border-radius: 50px;
+                border: none;
+                color: white;
+                font-size: 15px;
+                font-weight: 600;
+                transition: 0.5s;
+
+                &:hover{
+                    background-color: #DD1C1A;
+
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 260px) {
+    .fourth{
+        width: 100%;
+        height: 4000px;
+    }
+}

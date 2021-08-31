@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Architects+Daughter&family=Gloria+Hallelujah&family=Indie+Flower&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto&display=swap');
+.Second{
+    width: 100%;
+    color: #CECFC9;
+    margin: 10% 0 0 0;
+    padding: 6% 0 0 0;
+    height: 70vh;
+    background-color: #131B2A; 
+.carousel{
+    width: 100%;
+}
+
+    .Item{
+        width: 300px;
+        height: 350px;
+
+        .dj-hover{
+           position: absolute;
+           background-color: rgba(66, 66, 66, 0.746);
+           width: 300px;
+           height: 350px;
+           opacity: 0;
+
+           i{
+               font-size: 50px;
+               margin: 0 0 0 30px;
+           }
+
+           a{
+               color: #CECFC9;
+           }
+
+           h4{
+               font-size: 30px;
+               text-align: center;
+               margin: 20% 0 0 0;
+           }
+        }
+        .dj-hover:hover{
+            opacity: 1;
+            transition: 0.5s;
+
+            i:hover{
+                color: #FF5500;
+            }
+          }
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
