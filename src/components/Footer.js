@@ -19,7 +19,6 @@ import React, { Component } from 'react'
                       <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                       <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
                       <li><a class="soundcloud" href="#"><i class="fa fa-soundcloud"></i></a></li>
-                      {/* <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>    */}
                     </ul>
                     </div>
                 </div>

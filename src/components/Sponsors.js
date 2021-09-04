@@ -5,6 +5,7 @@ import React, { Component } from 'react'
               
         function Sponsor(props){
             return <div className="slider">
+            
             <div className="slide-track">
               <div className="slide">
               <img  src="http://slimhamdi.net/salimo/demos/img/logos-slider/activeden-dark-background.png" height={100} width={250} alt="" />
