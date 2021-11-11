@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Architects+Daughter&family=Gloria+Hallelujah&family=Indie+Flower&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.components{
+    width: 100%;
+    height: 70vh;
+
+    h3, p{
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;  
+        color: #CECFC9;
+
+    }
+    h3{
+        margin: 6% 0 0 0;
+        font-weight: 2000;
+        font-size: 45px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .date{
+        color: #fff;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;   
+}
+table{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: #415A77 1px solid;
+    
+}
+tr{
+    border: #415A77 1px solid;
+    td{
+        border: #415a77 1px solid;
+        text-align: center;
+        padding: 0 0 13px 0;
+    }
+    td, span{
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rgb(228, 228, 228);
+        font-size: 20px;
+        text-align: center !important;
+
+    }
+    
+    span{
+        font-family: 'Staatliches', cursive;
+        color: #CECFC9;
+        p{
+            font-size: 19px;
+            height: 7px;
+          
+        }
+    }
+    td:hover{
+        span, p{
+        color:  #fff;
+        }
+    }
+    
+}
+}
+
+@media only screen and (max-width: 160px) {
+    .table{
+        tr{
+            td{
+        font-size: 13px;
+    }
+}}
+}

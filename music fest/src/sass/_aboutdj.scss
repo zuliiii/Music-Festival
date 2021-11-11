@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Architects+Daughter&family=Gloria+Hallelujah&family=Indie+Flower&family=Orbitron:wght@500&display=swap');
+.container-fluid{
+    width: 100%;
+    height: 1600px;
+    background-color: #1B263B;
+	color: #CECFC9;
+    
+.row{
+    position: relative;
+    top: 10%;
+    margin-bottom: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+    .col-md-5{
+        img{
+            width: 400px;
+            height: 400px;
+        }
+        
+    }
+
+    .col-md-7{
+        h2{
+            font-family: 'Orbitron', sans-serif;
+            margin: 0 0 5% 1%;
+        }
+        h6{
+            margin: 0 0 2% 1%;
+            font-weight: bold;
+            span{
+                font-style:italic;
+            }
+        }
+        h3{
+            margin: 5% 0 0 1%;
+        }
+       
+        .socialbtns {
+            margin: 2% 50% 0 0;
+               ul {
+                margin: 0;
+                padding: 5px;
+            }
+            li {
+                margin: 0;
+                padding: 5px;
+                list-style: none outside none;
+                text-decoration: none;
+                display: inline-block;
+            .fab, .fa {
+                width: 100px;
+                height: 45px;
+                color: #CECFC9;
+                background-color: rgba(255, 255, 255, 0.246);
+                padding-top: 15px;
+                border-radius: 50px;
+                transition: 0.5s;	
+              &:hover{
+                  background-color: #415A77;
+                  text-decoration: none;
+              }
+            }
+            
+        }
+        }
+    }
+    p{
+        width: 90%;
+    }
+}
